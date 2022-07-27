@@ -1,0 +1,11 @@
+.img-fit {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 992px) {
+    .img-fit {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+  }
