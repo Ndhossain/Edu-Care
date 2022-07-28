@@ -1,11 +1,30 @@
 .img-fit {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.course-img-box {
+  width: 30%;
+}
+
+.course-text-box {
+  width: 70%;
+}
+
+.about-bg {
+    background-color: #F4FAFD;
 }
 
 @media only screen and (max-width: 992px) {
-    .img-fit {
-        height: 400px;
-        width: 100%;
-        object-fit: cover;
-    }
+  .img-fit {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
   }
+}
+
+@media only screen and (max-width: 576px) {
+  .course-text-box,
+  .course-img-box {
+    width: 100%;
+  }
+}
