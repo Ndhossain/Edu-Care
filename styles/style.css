@@ -1,38 +1,8 @@
 .img-fit {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.course-img-box {
-  width: 30%;
-}
-
-.course-text-box {
-  width: 70%;
+  min-height: 400px;
+  object-fit: cover;
 }
 
 .about-bg {
   background-color: #f4fafd;
-}
-
-.faq-width {
-  width: 60%;
-}
-
-@media only screen and (max-width: 992px) {
-  .img-fit {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .faq-width {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .course-text-box,
-  .course-img-box {
-    width: 100%;
-  }
 }
